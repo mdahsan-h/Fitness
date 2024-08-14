@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-regular-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+  .dancing-script-font {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* sheared styles */
+.display-flex{
+    display: flex;
+}
+
+.color-orange{
+    color: rgba(230, 83, 60, 1);
+}
+
+.color-white{
+    color: rgba(255, 255, 255, 1);
+}
+
+.color-gray{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-gradient{
+    /* background-color: rgba(17, 17, 17, 1)
+    rgba(119, 119, 119, 0) ; */
+    background-color: rgba(0, 0, 0, 0.826);
+}
+
+/* .btn-1{
+    color: rgba(255, 255, 255, 1) ;
+    background: rgba(230, 83, 60, 1);
+    border-radius: 46px;
+    padding: 8px, 20px, 8px, 20px;
+} */
+
+
+
+
+
+
+
+
+  /* header styles */
+
+
+  /* navbar realated styles */
+
+  .navbar{
+
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+
+  .brand-name{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43.2px;
+  }
+
+  .nave-item{
+    list-style: none;
+    margin-right: 47px;
+  }
+
+  .nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    
+  }
+
+  .nav-style{
+    border: 1px solid rgba(255, 255, 255, 0.1) ;
+    border-radius: 39px;
+    /* padding: 2px; */
+    /* gap: 47px; */
+
+  }
+  .home{
+    background-color: rgba(230, 83, 60, 1) ;
+    border-radius: 46px;
+    padding: 8px, 20px, 8px, 20px ;
+   
+    /* gap: 10px; */
+    /* width: 92px;
+    height: 32px;
+    align-items: center; */
+  }
+
+  .navbar, .banner{
+    max-width: 1060px;
+    margin: 0 auto;
+  }
