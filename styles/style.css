@@ -417,12 +417,14 @@
 
     }
 
+    .habit-image{
+        flex-direction: column;
+        align-items: center;
+    }
+
   }
   
 /* habit related responsive property */
 
-.habit-image{
-    flex-direction: column;
-    align-items: center;
-}
+
   
