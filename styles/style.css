@@ -36,7 +36,7 @@
 .bg-gradient{
     /* background-color: rgba(17, 17, 17, 1)
     rgba(119, 119, 119, 0) ; */
-    background-color: rgba(0, 0, 0, 0.826);
+    background-color: rgba(0, 0, 0, 0.891);
 }
 
 /* .btn-1{
@@ -69,7 +69,7 @@
   .brand-name{
     font-style: italic;
     font-weight: 800;
-    font-size: 36px;
+    font-size: 2rem;
     line-height: 43.2px;
   }
 
@@ -80,14 +80,19 @@
 
   .nav-link{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 400;
     
+  }
+
+  .nav-links{
+    align-items: center;
   }
 
   .nav-style{
     border: 1px solid rgba(255, 255, 255, 0.1) ;
     border-radius: 39px;
+    text-align: center;
     /* padding: 2px; */
     /* gap: 47px; */
 
@@ -95,8 +100,9 @@
   .home{
     background-color: rgba(230, 83, 60, 1) ;
     border-radius: 46px;
-    padding: 8px, 20px, 8px, 20px ;
-   
+    font-weight: 600;
+    padding: 8px 20px 8px 20px ;
+    text-align: center;
     /* gap: 10px; */
     /* width: 92px;
     height: 32px;
@@ -106,4 +112,117 @@
   .navbar, .banner{
     max-width: 1060px;
     margin: 0 auto;
+  }
+
+
+  /* banner related styles */
+  .banner-title{
+    font-weight: 900;
+    font-size: 4.3rem;
+    line-height: 93.6px;
+  }
+
+  #span{
+    font-size: 4.3rem ;
+    font-style: italic;
+    font-weight: 400;
+
+
+  }
+
+  .banner-text{
+    max-width: 520px ;
+  }
+
+
+.banner{
+    justify-content: space-between;
+}
+
+
+  .banner-img{
+    max-width: 400px;
+  }
+
+  .banner-sub{
+    font-size: .9 rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .5px;
+    margin-top: 20px;
+  }
+
+  .btn-primary{
+    background-color: rgba(230, 83, 60, 1) ;
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    font-size: 1 rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+
+    
+  }
+
+  .btn-second{
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    border: 1px solid 
+    rgba(255, 255, 255, 1);
+  }
+
+
+  .a500{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.65);
+    font-size: .72rem;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 17px 24px 17px 24px;
+    text-align: left;
+    /* margin-left: 200px;
+    margin-bottom: -100px; */
+    /* margin-top: ; */
+    position: absolute;
+    right: 70px;
+    top: 250px;
+    
+  }
+
+  #aa500{
+    color: rgba(255, 255, 255, 1) ;
+    font-weight: 900;
+    font-size: 2.22rem;
+    line-height: 40px;
+    letter-spacing: 1px;
+    
+  }
+
+  .a300{
+    border: 1px solid rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.54);
+    color: rgba(250, 250, 249, 1);
+    font-size: .72rem;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 17px 24px 17px 24px;
+    text-align: left;
+    /* margin-left: -50px;
+    margin-top: -100px; */
+    position: absolute;
+    top: 550px;
+    left: 750px;
+  }
+
+  .aa350{
+    font-size: 1.33rem;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
   }
