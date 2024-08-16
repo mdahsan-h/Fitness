@@ -407,6 +407,7 @@
   max-width: 1060px;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 88px;
 }
 
 .team-content{
@@ -433,9 +434,16 @@
 .team-images{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px 20px;
-  margin: 0;
-  padding: 0;
+  gap: 15px;
+  column-gap: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 10px;
+  background-color: 
+  rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  
 }
 
 .team-img{
@@ -445,6 +453,90 @@
   height: 272px;
 }
 
+
+
+/* footer sec design style */
+
+.footer{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.footer-container{
+  max-width: 1059px;
+  margin: 0 auto;
+  align-items: center;
+  gap: 102px;
+  padding-top: 68px;
+  padding-bottom: 79px;
+  
+}
+
+.icon{
+  max-width: 443px;
+  text-align: left;
+}
+
+.footer-icon{
+  font-weight: 800;
+  font-size: 3.88rem;
+  font-style: italic;
+  line-height: 84px;
+  margin-bottom: 0px;
+}
+
+.footer-icon-sub{
+  font-weight: 400;
+  font-size: 0.77rem;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: 
+  rgba(255, 255, 255, 0.5);
+  margin-top: 20px;
+}
+
+.menuu-list{
+  list-style: none;
+  text-align: left;
+  margin-left: 0px;
+
+}
+
+.li-item{
+  margin-bottom: 20px;
+}
+
+.menuu-title{
+  font-weight: 700;
+  font-size: 1.77rem;
+  line-height: 38.4px;
+}
+
+.li-item{
+  font-weight: 400;
+  font-size: 1.27rem;
+  line-height: 27.6px;
+}
+
+.right-container{
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.bottom-border{
+  border: .5px solid rgba(255, 255, 255, 0.1);
+}
+
+.fotter-p{
+  font-size: 1.11rem;
+  line-height: 24px;
+  letter-spacing: .3px;
+  font-weight: 400;
+  color: 
+  rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding-bottom: 35px;
+}
 
 
 
@@ -627,7 +719,19 @@
 }
 
 
+/* team related responsive style */
 
+.team-images{
+  grid-template-columns: repeat(1, 1fr);
+  
+
+}
+
+.footer-container{
+  flex-direction: column;
+  padding: 44px 20px 20px 72px;
+  align-items: start;
+}
 
 
 
